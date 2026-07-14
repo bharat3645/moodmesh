@@ -1,0 +1,5 @@
+pytest>=7.0
+# Optional: only needed if you want the real LLM narrative layer in
+# moodmesh.narrate.narrate_digest(). Not required for core functionality
+# or for running the test suite.
+anthropic>=0.25.0
